@@ -1,35 +1,29 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fdf6f0;
-  color: #333;
-  margin: 0;
-  padding: 20px;
+  font-family: 'Garamond', 'Georgia', serif;
+  background-color: #f5f0e6; /* soft beige */
+  color: #3b3b3b; /* deep charcoal */
 }
 
 header {
-  background-color: #ff6f61;
-  color: white;
-  padding: 20px;
-  text-align: center;
+  background-color: #d2b48c; /* tan */
+  color: #2c2c2c;
 }
 
-h1 {
-  margin: 0;
-  font-size: 2.5em;
+h1, h2 {
+  font-family: 'Garamond', 'Baskerville', serif;
+  letter-spacing: 0.5px;
 }
 
 .film {
-  margin: 30px 0;
-  padding: 20px;
-  background-color: #fff;
-  border-left: 5px solid #ff6f61;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fffaf0; /* ivory */
+  border-left: 5px solid #c2a679; /* muted gold */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .film img {
-  max-width: 200px;
-  display: block;
-  margin-bottom: 10px;
+  float: left;
+  margin-right: 20px;
+  border: 1px solid #ccc;
 }
 
 footer {
